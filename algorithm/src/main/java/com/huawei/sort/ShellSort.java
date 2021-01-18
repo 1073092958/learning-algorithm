@@ -1,7 +1,7 @@
 package com.huawei.sort;
 
 /**
- * 插入排序
+ * 希尔排序
  *
  * @author YOUYAYAYA
  * @since 2021/1/9
