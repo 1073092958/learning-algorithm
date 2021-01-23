@@ -2,10 +2,10 @@ package com.huawei.linetable.linkedlist;
 
 import org.junit.Test;
 
-public class TestMyLinkedList {
+public class TestMySingleLinkedList {
     @Test
     public void test(){
-        MyLinkedList<Integer> list = new MyLinkedList<>();
+        MySingleLinkedList<Integer> list = new MySingleLinkedList<>();
         list.backInsert(1);
         System.out.println(list.size);
         list.backInsert(2);

@@ -9,13 +9,13 @@ import java.util.ArrayList;
  * @createTime 2021/1/14 22:57
  * @updateTime
  */
-public class MyLinkedList<T> {
+public class MySingleLinkedList<T> {
     private Node<T> first;
     transient int size;
     private static final int DEFAULT_CAPACITY = 10;
 
 
-    public MyLinkedList() {
+    public MySingleLinkedList() {
         this.first = new Node<T>(null);
         this.size = 0;
     }
