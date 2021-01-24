@@ -6,6 +6,7 @@ package com.huawei.sort;
  * @author YOUYAYAYA
  * @since 2021/1/9
  */
+@SuppressWarnings("rawtypes")
 public class ShellSort {
     public static void sort(Comparable[] arr) {
         int h = 1;

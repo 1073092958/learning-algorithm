@@ -11,6 +11,7 @@ package com.huawei.sort;
  * @author YOUYAYAYA
  * @since 2021/1/9
  */
+@SuppressWarnings("rawtypes")
 public class InsertSort {
     public static void sort(Comparable[] arr) {
         for (int i = 1; i < arr.length; i++) {

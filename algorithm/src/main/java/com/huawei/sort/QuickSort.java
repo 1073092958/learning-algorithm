@@ -6,6 +6,7 @@ package com.huawei.sort;
  * @since 2021/1/9
  * @author YOUYAYAYA
  */
+@SuppressWarnings("rawtypes")
 public class QuickSort {
     public static void sort(Comparable[] arr){
         int lo = 0;

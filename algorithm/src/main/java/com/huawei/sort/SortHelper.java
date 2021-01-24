@@ -1,11 +1,12 @@
 package com.huawei.sort;
 
 /**
- * 插入排序
+ * 排序helper类
  *
  * @since 2021/1/9
  * @author YOUYAYAYA
  */
+@SuppressWarnings({"rawtypes", "unchecked"})
 public class SortHelper {
 
     public static boolean greater(Comparable v, Comparable w) {

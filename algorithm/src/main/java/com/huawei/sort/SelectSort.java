@@ -14,6 +14,7 @@ package com.huawei.sort;
  * @author YOUYAYAYA
  * @since 2021/1/9
  */
+@SuppressWarnings("rawtypes")
 public class SelectSort {
     public static void sort(Comparable[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {

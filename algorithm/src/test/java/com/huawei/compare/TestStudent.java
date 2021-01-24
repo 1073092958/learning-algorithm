@@ -6,6 +6,7 @@ package com.huawei.compare;
  * @since 2021/1/11
  * @author YOUYAYAYA
  */
+@SuppressWarnings("rawtypes")
 public class TestStudent {
 
     public static void main(String[] args) {
